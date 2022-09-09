@@ -1,0 +1,16 @@
+C:\Users\Ali\Desktop\ReCapProject\asdasd\bin\Debug\net5.0\asdasd.exe
+C:\Users\Ali\Desktop\ReCapProject\asdasd\bin\Debug\net5.0\asdasd.deps.json
+C:\Users\Ali\Desktop\ReCapProject\asdasd\bin\Debug\net5.0\asdasd.runtimeconfig.json
+C:\Users\Ali\Desktop\ReCapProject\asdasd\bin\Debug\net5.0\asdasd.runtimeconfig.dev.json
+C:\Users\Ali\Desktop\ReCapProject\asdasd\bin\Debug\net5.0\asdasd.dll
+C:\Users\Ali\Desktop\ReCapProject\asdasd\bin\Debug\net5.0\asdasd.pdb
+C:\Users\Ali\Desktop\ReCapProject\asdasd\obj\Debug\net5.0\asdasd.csproj.AssemblyReference.cache
+C:\Users\Ali\Desktop\ReCapProject\asdasd\obj\Debug\net5.0\asdasd.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ali\Desktop\ReCapProject\asdasd\obj\Debug\net5.0\asdasd.AssemblyInfoInputs.cache
+C:\Users\Ali\Desktop\ReCapProject\asdasd\obj\Debug\net5.0\asdasd.AssemblyInfo.cs
+C:\Users\Ali\Desktop\ReCapProject\asdasd\obj\Debug\net5.0\asdasd.csproj.CoreCompileInputs.cache
+C:\Users\Ali\Desktop\ReCapProject\asdasd\obj\Debug\net5.0\asdasd.dll
+C:\Users\Ali\Desktop\ReCapProject\asdasd\obj\Debug\net5.0\refint\asdasd.dll
+C:\Users\Ali\Desktop\ReCapProject\asdasd\obj\Debug\net5.0\asdasd.pdb
+C:\Users\Ali\Desktop\ReCapProject\asdasd\obj\Debug\net5.0\asdasd.genruntimeconfig.cache
+C:\Users\Ali\Desktop\ReCapProject\asdasd\obj\Debug\net5.0\ref\asdasd.dll
