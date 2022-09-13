@@ -2,6 +2,7 @@
 using DataAccess.Abstract;
 using DataAccess.Concrete.EntityFramework;
 using DataAccess.Concrete.InMemory;
+using Entities.Concrete;
 using System;
 
 namespace TestProjectOnConsole
@@ -12,7 +13,11 @@ namespace TestProjectOnConsole
         {
             CarManager carManager = new CarManager(new EFCarDal());
 
-            foreach (var item in carManager.GetByProductPrice(50,100))
+           
+            EFCarDal eFCarDal = new EFCarDal();
+            eFCarDal.Add(new Car { DailyPrice=366.0m ,ModelName="GMC", c}) ;
+
+            foreach (var item in carManager.GetAll())
             {
                 Console.WriteLine(item.DailyPrice+" "+item.Description);
             }

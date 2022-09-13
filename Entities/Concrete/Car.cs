@@ -1,4 +1,4 @@
-﻿using Entities.Abstract;
+﻿using Core.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,6 +14,8 @@ namespace Entities.Concrete
         public int BrandID{ get; set; }
 
         public int ColorID { get; set; }
+
+        public string ModelName { get; set; }
 
         public short ModelYear { get; set; }
 
