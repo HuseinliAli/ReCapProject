@@ -1,4 +1,5 @@
 ﻿using Business.Abstract;
+using Core.Entities;
 using DataAccess.Abstract;
 using DataAccess.Concrete.InMemory;
 using Entities.Concrete;
@@ -19,6 +20,17 @@ namespace Business.Concrete
             _carDal=carDal;
         }
 
+        public void Add(Car car)
+        {
+            _carDal.Add(car);
+            Console.WriteLine("car is added to database");
+        }
+
+        public void Delete(Car car)
+        {
+            _carDal.Delete(car);
+        }
+
         public List<Car> GetAll()
         {
             return _carDal.GetAll();    
@@ -32,6 +44,16 @@ namespace Business.Concrete
         public List<Car> GetByProductPrice(decimal min, decimal max)
         {
             return _carDal.GetAll(c => c.DailyPrice>=min && c.DailyPrice<=max);
+        }
+
+        public List<CarDetailDto> GetCarDetails()
+        {
+            return _carDal.GetCarDetails();
+        }
+
+        public void Update(Car car)
+        {
+            _carDal.Update(car);
         }
     }
 }

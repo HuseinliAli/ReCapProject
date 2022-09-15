@@ -13,9 +13,9 @@ namespace Entities.Concrete
 
         public int BrandID{ get; set; }
 
-        public int ColorID { get; set; }
+        public int ModelID { get; set; }
 
-        public string ModelName { get; set; }
+        public int ColorID { get; set; }
 
         public short ModelYear { get; set; }
 
