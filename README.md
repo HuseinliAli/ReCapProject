@@ -17,3 +17,6 @@
 4.Test operations on Console; <br/>
 5.Join to tables(Car, Brand, Model, Color); <br/>
 6.Add Model entity (ModelID, BrandID, ModelName); <br/>
+
+## 4
+1.Create Utilities Folder in Core (Abstract(IDataResult, IResult), Concrete(Result,DataResult,ErrorResult,ErrorDataResult,SuccessResult,SuccessDataResult)) <br/>
