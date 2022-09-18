@@ -12,13 +12,13 @@ namespace TestProjectOnConsole
         static void Main(string[] args)
         {
             CarManager carManager = new CarManager(new EFCarDal());
-            UpdateCar(carManager);
-            AllCars(carManager);
-            CarDetails(carManager);
+            //UpdateCar(carManager);
+            //AllCars(carManager);
+            //CarDetails(carManager);
 
             ModeLManager modeLManager = new ModeLManager(new EFModelDal());
 
-            AddModel(modeLManager);
+            //AddModel(modeLManager);
             AllModels(modeLManager);
         }
 
@@ -48,16 +48,24 @@ namespace TestProjectOnConsole
         private static void AllModels(ModeLManager modeLManager)
         {
             var result = modeLManager.GetAll();
-            foreach (var item in result)
+
+            if(result.Success == true)
             {
-                Console.WriteLine(item.ModelID+ " "+ item.ModelName);
+                foreach (var item in result.Data)
+                {
+                    Console.WriteLine(item.ModelID+ " "+ item.ModelName);
+                }
+            }
+            else
+            {
+                Console.WriteLine(result.Message);
             }
         }
 
         private static void AllCars(CarManager carManager)
         {
             var result = carManager.GetAll();
-            foreach (var item in result)
+            foreach (var item in result.Data)
             {
                 Console.WriteLine(item.CarID+" "+item.DailyPrice+" "+item.ModelYear+" "+item.Description);
             }
@@ -66,7 +74,7 @@ namespace TestProjectOnConsole
         private static void CarDetails(CarManager carManager)
         {
             var result = carManager.GetCarDetails();
-            foreach (var item in result)
+            foreach (var item in result.Data)
             {
                 Console.WriteLine(item.BrandName+" "+item.ModelName+" "+item.Description);
             }
