@@ -35,6 +35,11 @@ namespace Business.Concrete
             return new Result(Messages.CarDeleted, true);
         }
 
+        public IDataResult<List<Car>> Get(int id)
+        {
+            return new SuccessDataResult<List<Car>>(_carDal.GetAll(c => c.CarID==id), Messages.CarByID);
+        }
+
         public IDataResult<List<Car>> GetAll()
         {
             return new SuccessDataResult<List<Car>>(_carDal.GetAll(),Messages.CarListed);    
