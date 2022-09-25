@@ -72,3 +72,4 @@ C:\Users\Ali\Desktop\ReCapProject\WebAPI\bin\Debug\net5.0\Autofac.Extensions.Dep
 C:\Users\Ali\Desktop\ReCapProject\WebAPI\bin\Debug\net5.0\Autofac.Extras.DynamicProxy.dll
 C:\Users\Ali\Desktop\ReCapProject\WebAPI\bin\Debug\net5.0\Castle.Core.dll
 C:\Users\Ali\Desktop\ReCapProject\WebAPI\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Ali\Desktop\ReCapProject\WebAPI\bin\Debug\net5.0\FluentValidation.dll
