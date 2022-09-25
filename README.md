@@ -31,3 +31,6 @@
  1.Create the WebAPI layer <br/>
  2.Write the Api equivalent of all services in the business layer. <br/>
  3.Test it in Postman. <br/>
+ 
+ ## 6
+ 1.Add Autofac to busines and API layer <Br/>
