@@ -60,7 +60,7 @@ namespace WebAPI.Controllers
             return BadRequest(result.Message);
         }
 
-        [HttpPut("delete")]
+        [HttpDelete("delete")]
         public IActionResult Delete(Color color)
         {
             var result = _colorService.Delete(color);

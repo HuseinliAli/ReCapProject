@@ -11,7 +11,6 @@ C:\Users\Ali\Desktop\ReCapProject\TestProjectOnConsole\bin\Debug\net5.0\Business
 C:\Users\Ali\Desktop\ReCapProject\TestProjectOnConsole\bin\Debug\net5.0\DataAccess.pdb
 C:\Users\Ali\Desktop\ReCapProject\TestProjectOnConsole\bin\Debug\net5.0\Entities.pdb
 C:\Users\Ali\Desktop\ReCapProject\TestProjectOnConsole\obj\Debug\net5.0\TestProjectOnConsole.csproj.AssemblyReference.cache
-C:\Users\Ali\Desktop\ReCapProject\TestProjectOnConsole\obj\Debug\net5.0\TestProjectOnConsole.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Ali\Desktop\ReCapProject\TestProjectOnConsole\obj\Debug\net5.0\TestProjectOnConsole.AssemblyInfoInputs.cache
 C:\Users\Ali\Desktop\ReCapProject\TestProjectOnConsole\obj\Debug\net5.0\TestProjectOnConsole.AssemblyInfo.cs
 C:\Users\Ali\Desktop\ReCapProject\TestProjectOnConsole\obj\Debug\net5.0\TestProjectOnConsole.csproj.CoreCompileInputs.cache
@@ -74,3 +73,19 @@ C:\Users\Ali\Desktop\ReCapProject\TestProjectOnConsole\bin\Debug\net5.0\Autofac.
 C:\Users\Ali\Desktop\ReCapProject\TestProjectOnConsole\bin\Debug\net5.0\Autofac.Extras.DynamicProxy.dll
 C:\Users\Ali\Desktop\ReCapProject\TestProjectOnConsole\bin\Debug\net5.0\Castle.Core.dll
 C:\Users\Ali\Desktop\ReCapProject\TestProjectOnConsole\bin\Debug\net5.0\FluentValidation.dll
+C:\Users\Ali\Desktop\ReCapProject\TestProjectOnConsole\bin\Debug\net5.0\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\Ali\Desktop\ReCapProject\TestProjectOnConsole\bin\Debug\net5.0\System.IO.Pipelines.dll
+C:\Users\Ali\Desktop\ReCapProject\TestProjectOnConsole\bin\Debug\net5.0\System.Runtime.InteropServices.WindowsRuntime.dll
+C:\Users\Ali\Desktop\ReCapProject\TestProjectOnConsole\bin\Debug\net5.0\Uno.Diagnostics.Eventing.dll
+C:\Users\Ali\Desktop\ReCapProject\TestProjectOnConsole\bin\Debug\net5.0\Uno.Foundation.Logging.dll
+C:\Users\Ali\Desktop\ReCapProject\TestProjectOnConsole\bin\Debug\net5.0\Uno.Foundation.dll
+C:\Users\Ali\Desktop\ReCapProject\TestProjectOnConsole\bin\Debug\net5.0\Uno.UI.Composition.dll
+C:\Users\Ali\Desktop\ReCapProject\TestProjectOnConsole\bin\Debug\net5.0\Uno.UI.Dispatching.dll
+C:\Users\Ali\Desktop\ReCapProject\TestProjectOnConsole\bin\Debug\net5.0\Uno.UI.FluentTheme.dll
+C:\Users\Ali\Desktop\ReCapProject\TestProjectOnConsole\bin\Debug\net5.0\Uno.UI.FluentTheme.v1.dll
+C:\Users\Ali\Desktop\ReCapProject\TestProjectOnConsole\bin\Debug\net5.0\Uno.UI.FluentTheme.v2.dll
+C:\Users\Ali\Desktop\ReCapProject\TestProjectOnConsole\bin\Debug\net5.0\Uno.UI.Toolkit.dll
+C:\Users\Ali\Desktop\ReCapProject\TestProjectOnConsole\bin\Debug\net5.0\Uno.UI.dll
+C:\Users\Ali\Desktop\ReCapProject\TestProjectOnConsole\bin\Debug\net5.0\Uno.Xaml.dll
+C:\Users\Ali\Desktop\ReCapProject\TestProjectOnConsole\bin\Debug\net5.0\Uno.dll
+C:\Users\Ali\Desktop\ReCapProject\TestProjectOnConsole\obj\Debug\net5.0\TestProjectOnConsole.d-bfalse.GeneratedMSBuildEditorConfig.editorconfig

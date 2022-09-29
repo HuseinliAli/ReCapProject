@@ -6,7 +6,6 @@ C:\Users\Ali\Desktop\ReCapProject\Business\bin\Debug\net5.0\Entities.dll
 C:\Users\Ali\Desktop\ReCapProject\Business\bin\Debug\net5.0\DataAccess.pdb
 C:\Users\Ali\Desktop\ReCapProject\Business\bin\Debug\net5.0\Entities.pdb
 C:\Users\Ali\Desktop\ReCapProject\Business\obj\Debug\net5.0\Business.csproj.AssemblyReference.cache
-C:\Users\Ali\Desktop\ReCapProject\Business\obj\Debug\net5.0\Business.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Ali\Desktop\ReCapProject\Business\obj\Debug\net5.0\Business.AssemblyInfoInputs.cache
 C:\Users\Ali\Desktop\ReCapProject\Business\obj\Debug\net5.0\Business.AssemblyInfo.cs
 C:\Users\Ali\Desktop\ReCapProject\Business\obj\Debug\net5.0\Business.csproj.CoreCompileInputs.cache
@@ -17,3 +16,4 @@ C:\Users\Ali\Desktop\ReCapProject\Business\obj\Debug\net5.0\Business.pdb
 C:\Users\Ali\Desktop\ReCapProject\Business\obj\Debug\net5.0\ref\Business.dll
 C:\Users\Ali\Desktop\ReCapProject\Business\bin\Debug\net5.0\Core.dll
 C:\Users\Ali\Desktop\ReCapProject\Business\bin\Debug\net5.0\Core.pdb
+C:\Users\Ali\Desktop\ReCapProject\Business\obj\Debug\net5.0\Business.d-bfalse.GeneratedMSBuildEditorConfig.editorconfig
