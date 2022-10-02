@@ -76,7 +76,18 @@ namespace WebAPI.Controllers
         [HttpPut("update")]
         public IActionResult Update([FromForm] IFormFile file, [FromForm] CarImage carImage)
         {
-            var result = _carImageService.Add(file, carImage);
+            var result = _carImageService.Update(file, carImage);
+            if (result.Success)
+            {
+                return Ok(result);
+            }
+            return BadRequest(result);
+        }
+
+        [HttpGet("getdefaultimage")]
+        public IActionResult GetDefaultImage(int carId)
+        {
+            var result = _carImageService.GetDefaultImage(carId);
             if (result.Success)
             {
                 return Ok(result);

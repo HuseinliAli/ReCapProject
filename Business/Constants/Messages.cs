@@ -109,6 +109,7 @@ namespace Business.Constants
         //CARIMAGES
         public static string CarImageAdded = "CarImage is Added";
         public static string CarImageLimitBound = "Car image limit bounds";
-        public static string CarImageUpdated = "Car image is updated"; 
+        public static string CarImageUpdated = "Car image is updated";
+        internal static string CarImageDeleted;
     }
 }

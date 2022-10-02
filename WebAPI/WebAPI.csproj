@@ -5,6 +5,17 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Include="Controllers\BrandsController.cs" />
+    <Content Include="Controllers\CarImagesController.cs" />
+    <Content Include="Controllers\CarsController.cs" />
+    <Content Include="Controllers\ColorsController.cs" />
+    <Content Include="Controllers\CustomersController.cs" />
+    <Content Include="Controllers\ModelsController.cs" />
+    <Content Include="Controllers\RentalsController.cs" />
+    <Content Include="Controllers\UsersController.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="8.0.0" />
     <PackageReference Include="Microsoft.AspNet.WebApi.Core" Version="5.2.9" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />

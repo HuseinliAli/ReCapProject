@@ -1,4 +1,4 @@
-﻿using Core.Utilities.Helpers.GUIDHelper;
+﻿using Castle.Components.DictionaryAdapter;
 using Microsoft.AspNetCore.Http;
 using System;
 using System.Collections.Generic;
@@ -6,6 +6,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Windows.UI.Xaml;
 
 namespace Core.Utilities.Helpers.FileHelper
 {
@@ -37,14 +38,13 @@ namespace Core.Utilities.Helpers.FileHelper
                     Directory.CreateDirectory(root);
                 }
                 string extension = Path.GetExtension(file.FileName);
-                string guid = GuidHelper.CreateGuid();
-                string filePath = guid + extension;
+                string guid = Guid.NewGuid().ToString()+extension;
 
-                using (FileStream fileStream = File.Create(root + filePath))
+                using (var fileStream = File.Create(root + guid))
                 {
                     file.CopyTo(fileStream);
                     fileStream.Flush();
-                    return filePath;
+                    return guid;
                 }
 
             }

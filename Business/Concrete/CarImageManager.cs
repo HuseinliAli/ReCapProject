@@ -34,6 +34,10 @@ namespace Business.Concrete
                 return result;
             }
             image.ImagePath = _fileHelper.Upload(formFile, @"wwwroot\\Uploads\\Images\\");
+            if(image.ImagePath==null)
+            {
+                image.ImagePath += "default.jpg";
+            }
             image.ImageDate = DateTime.Now;
 
             _carImageDal.Add(image);
@@ -44,7 +48,7 @@ namespace Business.Concrete
         {
             _fileHelper.Delete(@"wwwroot\\Uploads\\Images\\"+image.ImagePath);
             _carImageDal.Delete(image);
-            return new SuccessResult(Messages.CarImageAdded);
+            return new SuccessResult(Messages.CarImageDeleted);
         }
 
         public IDataResult<List<CarImage>> GetByCarId(int id)
@@ -52,7 +56,7 @@ namespace Business.Concrete
             var result = BusinessRules.Run(CheckCarImageLimit(id));
             if(result != null)
             {
-                return new ErrorDataResult<List<CarImage>>();
+                return new ErrorDataResult<List<CarImage>>(GetDefaultImage(id).Data);
             }
             return new SuccessDataResult<List<CarImage>>(_carImageDal.GetAll(C=>C.CarID == id));
         }
@@ -79,7 +83,7 @@ namespace Business.Concrete
         private IDataResult<List<CarImage>> GetDefaultImage(int carId)
         {
             List<CarImage> carImage = new List<CarImage>();
-            carImage.Add(new CarImage { CarID = carId, ImageDate =DateTime.Now, ImagePath = "etouch.jpg" });
+            carImage.Add(new CarImage { CarID = carId, ImageDate =DateTime.Now, ImagePath = "default.png" });
             return new SuccessDataResult<List<CarImage>>(carImage);
         }
 
@@ -101,6 +105,13 @@ namespace Business.Concrete
                 return new ErrorResult(Messages.CarImageLimitBound); 
             }
             return new SuccessResult();
+        }
+
+        IDataResult<List<CarImage>> ICarImageService.GetDefaultImage(int carId)
+        {
+            List<CarImage> carImage = new List<CarImage>();
+            carImage.Add(new CarImage { CarID = carId, ImageDate = DateTime.Now, ImagePath =@"wwwroot\\Uploads\\Images\\" + "default.png" });
+            return new SuccessDataResult<List<CarImage>>(carImage);
         }
     }
 }
