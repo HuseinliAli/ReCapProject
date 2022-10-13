@@ -33,14 +33,19 @@ namespace Business.Concrete
             return new Result(Messages.UserDeleted, true);
         }
 
-        public IDataResult<List<User>> Get(int id)
+        public IDataResult<List<User>> GetByMail(string email)
         {
-            return new SuccessDataResult<List<User>>(_userDal.GetAll(u => u.UserID==id), Messages.UserGetByID);
+            return new SuccessDataResult<List<User>>(_userDal.GetAll(u => u.Email==email), Messages.UserGetByID);
         }
 
         public IDataResult<List<User>> GetAll()
         {
             return new SuccessDataResult<List<User>>(_userDal.GetAll(), Messages.UserListed);
+        }
+
+        public List<OperationClaim> GetClaims(User user)
+        {
+            return _userDal.GetClaims(user);
         }
 
         public IResult Update(User user)

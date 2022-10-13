@@ -13,7 +13,7 @@ namespace Entities.Concrete
 
         public int CarID { get; set; }
 
-        public string ImagePath { get; set; }
+        public string? ImagePath { get; set; }
 
         public DateTime ImageDate { get; set; }
     }
