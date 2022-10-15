@@ -1,6 +1,8 @@
-﻿using System;
+﻿using Entities.Concrete;
+using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.Serialization;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -8,6 +10,7 @@ namespace Business.Constants
 {
     public static class Messages
     {
+        public static string AuthorizationDennied = "Authoraziton is denied";
         public static string MaintenanceTime = "System dont response to you";
 
         //CAR
@@ -111,5 +114,13 @@ namespace Business.Constants
         public static string CarImageLimitBound = "Car image limit bounds";
         public static string CarImageUpdated = "Car image is updated";
         internal static string CarImageDeleted;
+
+        public static string AccessTokenCreated = "AccessToken is created";
+
+        public static string UserAlreadyExists = "User already exists";
+        public static string UserRegistered = "User registered to the system";
+        public static string SuccessfullLogin = "Login is successfull";
+        public static string PasswordError = "Password is wrong";
+        public static string UserNotFound = "User not found";
     }
 }

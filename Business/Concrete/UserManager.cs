@@ -21,37 +21,19 @@ namespace Business.Concrete
             _userDal=userDal;
         }
 
-        public IResult Add(User user)
+        public void Add(User user)
         {
             _userDal.Add(user);
-            return new Result(Messages.UserAdded, true);
-        }
+        }     
 
-        public IResult Delete(User user)
+        public User GetByMail(string email)
         {
-            _userDal.Delete(user);
-            return new Result(Messages.UserDeleted, true);
-        }
-
-        public IDataResult<List<User>> GetByMail(string email)
-        {
-            return new SuccessDataResult<List<User>>(_userDal.GetAll(u => u.Email==email), Messages.UserGetByID);
-        }
-
-        public IDataResult<List<User>> GetAll()
-        {
-            return new SuccessDataResult<List<User>>(_userDal.GetAll(), Messages.UserListed);
+            return _userDal.GetByID(u => u.Email == email);
         }
 
         public List<OperationClaim> GetClaims(User user)
         {
             return _userDal.GetClaims(user);
-        }
-
-        public IResult Update(User user)
-        {
-            _userDal.Update(user);
-            return new Result(Messages.UserUpdated, true);
         }
     }
 }

@@ -1,4 +1,6 @@
-﻿namespace Core.Entities
+﻿using Core.Entities.Abstract;
+
+namespace Core.Entities
 {
     public class CarDetailDto : IDto
     {
