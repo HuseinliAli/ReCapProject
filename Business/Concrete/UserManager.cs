@@ -21,9 +21,10 @@ namespace Business.Concrete
             _userDal=userDal;
         }
 
-        public void Add(User user)
+        public IResult Add(User user)
         {
             _userDal.Add(user);
+            return new Result(Messages.UserAdded, true);
         }     
 
         public User GetByMail(string email)
@@ -31,9 +32,9 @@ namespace Business.Concrete
             return _userDal.GetByID(u => u.Email == email);
         }
 
-        public List<OperationClaim> GetClaims(User user)
+        public IDataResult<List<OperationClaim>> GetClaims(User user)
         {
-            return _userDal.GetClaims(user);
+            return new SuccessDataResult<List<OperationClaim>>(_userDal.GetClaims(user));
         }
     }
 }

@@ -89,3 +89,8 @@ C:\Users\Ali\Desktop\ReCapProject\WebAPI\bin\Debug\net5.0\Uno.UI.Toolkit.dll
 C:\Users\Ali\Desktop\ReCapProject\WebAPI\bin\Debug\net5.0\Uno.UI.dll
 C:\Users\Ali\Desktop\ReCapProject\WebAPI\bin\Debug\net5.0\Uno.Xaml.dll
 C:\Users\Ali\Desktop\ReCapProject\WebAPI\bin\Debug\net5.0\Uno.dll
+C:\Users\Ali\Desktop\ReCapProject\WebAPI\bin\Debug\net5.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Ali\Desktop\ReCapProject\WebAPI\bin\Debug\net5.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\Ali\Desktop\ReCapProject\WebAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Ali\Desktop\ReCapProject\WebAPI\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Ali\Desktop\ReCapProject\WebAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

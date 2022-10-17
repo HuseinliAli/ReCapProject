@@ -89,3 +89,7 @@ C:\Users\Ali\Desktop\ReCapProject\TestProjectOnConsole\bin\Debug\net5.0\Uno.UI.d
 C:\Users\Ali\Desktop\ReCapProject\TestProjectOnConsole\bin\Debug\net5.0\Uno.Xaml.dll
 C:\Users\Ali\Desktop\ReCapProject\TestProjectOnConsole\bin\Debug\net5.0\Uno.dll
 C:\Users\Ali\Desktop\ReCapProject\TestProjectOnConsole\obj\Debug\net5.0\TestProjectOnConsole.d-bfalse.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ali\Desktop\ReCapProject\TestProjectOnConsole\bin\Debug\net5.0\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\Ali\Desktop\ReCapProject\TestProjectOnConsole\bin\Debug\net5.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\Ali\Desktop\ReCapProject\TestProjectOnConsole\bin\Debug\net5.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Ali\Desktop\ReCapProject\TestProjectOnConsole\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll

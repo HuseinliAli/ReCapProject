@@ -16,7 +16,6 @@ namespace Business.ValidationRules.FluentValidation
             RuleFor(u => u.FirstName).MinimumLength(2).NotEmpty();
             RuleFor(u => u.LastName).MinimumLength(2).NotEmpty();
             RuleFor(u => u.Email).EmailAddress().NotEmpty();
-            RuleFor(u => u.Password).MinimumLength(8).NotEmpty();
         }
     }
 }
