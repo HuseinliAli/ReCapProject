@@ -46,13 +46,11 @@ namespace Business.DependencyResolvers.Autofac
 
             builder.RegisterType<FileHelperManager>().As<IFileHelperService>().SingleInstance();
 
-
             builder.RegisterType<UserManager>().As<IUserService>();
             builder.RegisterType<EFUserDal>().As<IUserDal>();
 
             builder.RegisterType<AuthManager>().As<IAuthService>();
             builder.RegisterType<JwtHelper>().As<ITokenHelper>();
-
 
             var assembly = System.Reflection.Assembly.GetExecutingAssembly();
 
