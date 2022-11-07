@@ -22,9 +22,9 @@ namespace WebAPI.Controllers
             var result = _rentalService.GetAll();
             if (result.Success)
             {
-                return Ok(result.Data);
+                return Ok(result);
             }
-            return BadRequest(result.Message);
+            return BadRequest(result);
         }
 
         [HttpGet("getrentaldetails")]
@@ -33,9 +33,9 @@ namespace WebAPI.Controllers
             var result = _rentalService.GetRentalDetails();
             if (result.Success)
             {
-                return Ok(result.Data);
+                return Ok(result);
             }
-            return BadRequest(result.Message);
+            return BadRequest(result);
         }
 
         [HttpGet("get")]
@@ -44,9 +44,9 @@ namespace WebAPI.Controllers
             var result = _rentalService.Get(id);
             if (result.Success)
             {
-                return Ok(result.Data);
+                return Ok(result);
             }
-            return BadRequest(result.Message);
+            return BadRequest(result);
         }
 
         [HttpPost("add")]
@@ -57,7 +57,7 @@ namespace WebAPI.Controllers
             {
                 return Ok(result);
             }
-            return BadRequest(result.Message);
+            return BadRequest(result);
         }
 
         [HttpPut("update")]
@@ -68,7 +68,7 @@ namespace WebAPI.Controllers
             {
                 return Ok(result);
             }
-            return BadRequest(result.Message);
+            return BadRequest(result);
         }
 
         [HttpDelete("delete")]
@@ -79,7 +79,7 @@ namespace WebAPI.Controllers
             {
                 return Ok(result);
             }
-            return BadRequest(result.Message);
+            return BadRequest(result);
         }
     }
 }

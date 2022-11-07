@@ -8,9 +8,9 @@ namespace Core.Utilities.Results.Abstract
 {
     public interface IResult
     {
-        public string Message { get; }
+         string Message { get; }
 
-        public bool Success { get; }
+         bool Success { get; }
 
     }
 }
